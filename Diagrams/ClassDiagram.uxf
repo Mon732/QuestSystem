@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>50</x>
+      <y>60</y>
+      <w>170</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>Quest
+--
+-id : string
+-name : string
+-currentStage : int
+-stages : Stage[]
+--
++Quest(string, [string])
++GetID() : string
++SetID(string)
++GetName() : string
++SetName(string)
++GetStage : int
++SetStage(int)
++DefineStages(Stage[])</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>310</x>
+      <y>90</y>
+      <w>200</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Stage
+--
+-index : int
+-objectives : Objective[]
+--
++Stage(int)
++DefineObjectives(Objective[])
++SetObjective(int, bool)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>610</x>
+      <y>90</y>
+      <w>200</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Objective
+--
+-text : string
+-completed : bool
+--
++Objective(string)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>500</x>
+      <y>140</y>
+      <w>130</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;110.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>210</x>
+      <y>140</y>
+      <w>120</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;100.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>50</x>
+      <y>380</y>
+      <w>180</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>QuestManager
+--
+_-instance : QuestManager_
+-quests : List&lt;Quest&gt;
++Instance : QuestManager
+--
+-QuestManager()
++GetQuest(string) : Quest
++GetQuest(int) : Quest</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>120</x>
+      <y>280</y>
+      <w>30</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>
