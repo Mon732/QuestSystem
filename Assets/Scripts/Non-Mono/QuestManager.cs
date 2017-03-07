@@ -44,9 +44,7 @@ public class QuestManager
                 stages[i].DefineObjectives(objectives);
             }
 
-            quests[0].DefineStages(stages);
-
-            quests[0].SetStage(3);
+            quests[k].DefineStages(stages);
         }
     }
 
@@ -66,6 +64,23 @@ public class QuestManager
     public Quest GetQuest(int index)
     {
         return quests[index];
+    }
+
+    public Quest AddQuest(string id, string name)
+    {
+        Quest quest = new Quest("test", "A Test of Quests: Part ");
+
+        Quest.Stage[] stages = new Quest.Stage[1];
+        stages[0] = new Quest.Stage(0);
+
+        Quest.Stage.Objective[] objectives = new Quest.Stage.Objective[1];
+        objectives[0] = new Quest.Stage.Objective("Do a thing");
+
+        stages[0].DefineObjectives(objectives);
+        quest.DefineStages(stages);
+
+        quests.Add(quest);
+        return quest;
     }
 
     public void EmptyFunction()

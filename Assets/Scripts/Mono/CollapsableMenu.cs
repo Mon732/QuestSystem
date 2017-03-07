@@ -49,13 +49,14 @@ public class CollapsableMenu : MonoBehaviour
 
     public void Select()
     {
-        list.DeselectList();
+        list.Select(gameObject);
         isSelected = true;
         transform.GetChild(0).GetComponent<Image>().color = selectedColour;
     }
 
     public void Deselect()
     {
+        list.Deselect();
         isSelected = false;
         transform.GetChild(0).GetComponent<Image>().color = normalColour;
     }

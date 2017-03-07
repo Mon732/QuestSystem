@@ -1,12 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CollapsableList : MonoBehaviour
 {
     public GameObject menuItem;
     public int closedOffset;
     public int openOffset;
+    public GameObject selectedItem;
 
     List<GameObject> menuItems;
     RectTransform rectTransform;
@@ -50,15 +52,6 @@ public class CollapsableList : MonoBehaviour
             menu.SetQuestID(QuestManager.Instance.GetQuest(i).GetID());
 
             AlignList();
-
-            /*if (menu.isOpen)
-            {
-                item.transform.localPosition += new Vector3(0, openOffset * i, 0);
-            }
-            else
-            {
-                item.transform.localPosition += new Vector3(0, closedOffset * i, 0);
-            }*/
         }
     }
 
@@ -105,12 +98,42 @@ public class CollapsableList : MonoBehaviour
         rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, listHeight);
     }
 
+    public void AddItem()
+    {
+        Quest quest = QuestManager.Instance.AddQuest("NewQ", "New Quest");
+
+        GameObject item = Instantiate(menuItem, transform, false);
+        CollapsableMenu menu = item.GetComponent<CollapsableMenu>();
+
+        item.transform.SetAsLastSibling();
+        menu.list = this;
+        menuItems.Add(item);
+        menu.SetQuestID(quest.GetID());
+
+        AlignList();
+    }
+
+    public void Select(GameObject item)
+    {
+        DeselectList();
+        selectedItem = item;
+    }
+
+    public void Deselect()
+    {
+        selectedItem = null;
+    }
+
     public void DeselectList()
     {
         for (int i = 0; i < menuItems.Count; i++)
         {
             CollapsableMenu menu =  menuItems[i].GetComponent<CollapsableMenu>();
-            menu.Deselect();
+            if (menu.isSelected)
+            {
+                menu.Deselect();
+                selectedItem = null;
+            }
         }
     }
 }
