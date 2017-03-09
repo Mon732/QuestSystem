@@ -113,6 +113,21 @@ public class CollapsableList : MonoBehaviour
         AlignList();
     }
 
+    public void RemoveItem()
+    {
+        if (selectedItem != null)
+        {
+            string id = selectedItem.GetComponent<CollapsableMenu>().GetQuestID();
+            QuestManager.Instance.RemoveQuest(id);
+
+            menuItems.Remove(selectedItem);
+            Destroy(selectedItem);
+            Deselect();
+
+            AlignList();
+        }
+    }
+
     public void Select(GameObject item)
     {
         DeselectList();

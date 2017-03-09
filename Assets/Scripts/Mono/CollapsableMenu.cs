@@ -35,6 +35,11 @@ public class CollapsableMenu : MonoBehaviour
         transform.GetChild(0).GetChild(0).GetComponent<Text>().text = questId;
     }
 
+    public string GetQuestID()
+    {
+        return questId;
+    }
+
     public void ToggleSelect()
     {
         if (isSelected)

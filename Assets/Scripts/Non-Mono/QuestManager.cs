@@ -83,6 +83,12 @@ public class QuestManager
         return quest;
     }
 
+    public void RemoveQuest(string id)
+    {
+        Quest quest = GetQuest(id);
+        quests.Remove(quest);
+    }
+
     public void EmptyFunction()
     {
 
