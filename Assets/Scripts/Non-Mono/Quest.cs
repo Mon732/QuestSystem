@@ -5,42 +5,14 @@ using UnityEngine;
 
 public class Quest
 {
-    string id;
-    string name;
-    int currentStage;
-    Stage[] stages;
+    public string id;
+    public string name;
+    public int currentStage;
+    public Stage[] stages;
 
-    public class Stage
+    public Quest()
     {
-        public int index;
-        Objective[] objectives;
 
-        public class Objective
-        {
-            public string text;
-            public bool completed;
-
-            public Objective(string displayText)
-            {
-                text = displayText;
-                completed = false;
-            }
-        }
-
-        public Stage(int stageNumber)
-        {
-            index = stageNumber;
-        }
-        
-        public void DefineObjectives(Objective[] newObjectives)
-        {
-            objectives = newObjectives;
-        }
-
-        public void SetObjective(int objectiveIndex, bool completed)
-        {
-            objectives[objectiveIndex].completed = completed;
-        }
     }
 
     public Quest(string idString, string questName = "")
@@ -69,19 +41,34 @@ public class Quest
         name = newName;
     }
 
-    public int GetStage()
+    public int GetCurrentStage()
     {
         return currentStage;
     }
 
+    public Stage GetStage()
+    {
+        return stages.First(s => s.GetIndex() == currentStage);
+    }
+
+    public Stage GetStage(int stageNumber)
+    {
+        return stages.First(s => s.GetIndex() == stageNumber);
+    }
+
+    public Stage[] GetStages()
+    {
+        return stages;
+    }
+
     public void SetStage(int stageNumber)
     {
-        Stage stage = stages.First(s => s.index == stageNumber);
-        currentStage = stage.index;
+        Stage stage = stages.First(s => s.GetIndex() == stageNumber);
+        currentStage = stage.GetIndex();
     }
 
     public void DefineStages(Stage[] newStages)
     {
-        stages = newStages;
+        stages = newStages.OrderBy(s => s.GetIndex()).ToArray();
     }
 }

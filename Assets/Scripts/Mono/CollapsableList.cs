@@ -10,29 +10,19 @@ public class CollapsableList : MonoBehaviour
     public int openOffset;
     public GameObject selectedItem;
 
-    List<GameObject> menuItems;
-    RectTransform rectTransform;
+    protected List<GameObject> menuItems;
+    protected RectTransform rectTransform;
 
-	// Use this for initialization
-	void Start ()
+    // Use this for initialization
+    protected virtual void Start ()
     {
         rectTransform = GetComponent<RectTransform>();
 
         GenerateList();
 	}
-	
-	// Update is called once per frame
-	void Update ()
+
+    public virtual void GenerateList()
     {
-		
-	}
-
-    public void GenerateList()
-    {
-        Debug.Log("Generating List");
-
-        menuItems = new List<GameObject>();
-
         if (transform.childCount > 0)
         {
             for (int i = 0; i < transform.childCount; i++)
@@ -41,18 +31,7 @@ public class CollapsableList : MonoBehaviour
             }
         }
 
-        for (int i = 0; i < 20; i++)
-        {
-            GameObject item = Instantiate(menuItem, transform, false);
-            CollapsableMenu menu = item.GetComponent<CollapsableMenu>();
-
-            item.transform.SetAsLastSibling();
-            menu.list = this;
-            menuItems.Add(item);
-            menu.SetQuestID(QuestManager.Instance.GetQuest(i).GetID());
-
-            AlignList();
-        }
+        menuItems = new List<GameObject>();
     }
 
     public void AlignList()
@@ -65,7 +44,11 @@ public class CollapsableList : MonoBehaviour
         {
             CollapsableMenu menu = menuItems[i].GetComponent<CollapsableMenu>();
 
-            if (i > 0)
+            if (i == 0)
+            {
+                menuItems[i].transform.localPosition = new Vector3(rectTransform.rect.width/2, 0, 0);
+            }
+            else
             {
                 Vector3 pos = menuItems[i - 1].transform.localPosition;
 
@@ -98,43 +81,23 @@ public class CollapsableList : MonoBehaviour
         rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, listHeight);
     }
 
-    public void AddItem()
+    public virtual void AddItem()
     {
-        Quest quest = QuestManager.Instance.AddQuest("NewQ", "New Quest");
-
-        GameObject item = Instantiate(menuItem, transform, false);
-        CollapsableMenu menu = item.GetComponent<CollapsableMenu>();
-
-        item.transform.SetAsLastSibling();
-        menu.list = this;
-        menuItems.Add(item);
-        menu.SetQuestID(quest.GetID());
-
-        AlignList();
+        
     }
 
-    public void RemoveItem()
+    public virtual void RemoveItem()
     {
-        if (selectedItem != null)
-        {
-            string id = selectedItem.GetComponent<CollapsableMenu>().GetQuestID();
-            QuestManager.Instance.RemoveQuest(id);
-
-            menuItems.Remove(selectedItem);
-            Destroy(selectedItem);
-            Deselect();
-
-            AlignList();
-        }
+        
     }
 
-    public void Select(GameObject item)
+    public virtual void Select(GameObject item)
     {
         DeselectList();
         selectedItem = item;
     }
 
-    public void Deselect()
+    public virtual void Deselect()
     {
         selectedItem = null;
     }

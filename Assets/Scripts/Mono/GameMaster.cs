@@ -8,7 +8,7 @@ public class GameMaster : MonoBehaviour
 	// Use this for initialization
 	void Start ()
     {
-        Debug.Log("Current Stage: " + QuestManager.Instance.GetQuest("test1").GetStage());
+        //Debug.Log("Current Stage: " + QuestManager.Instance.GetQuest("test1").GetStage());
 	}
 	
 	// Update is called once per frame

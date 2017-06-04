@@ -14,30 +14,12 @@ public class CollapsableMenu : MonoBehaviour
     public bool isSelected;
     public bool isOpen;
 
-    string questId;
 
     // Use this for initialization
     void Start()
     {
         properties.SetActive(false);
         isOpen = false;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
-    public void SetQuestID(string id)
-    {
-        questId = id;
-        transform.GetChild(0).GetChild(0).GetComponent<Text>().text = questId;
-    }
-
-    public string GetQuestID()
-    {
-        return questId;
     }
 
     public void ToggleSelect()
@@ -54,7 +36,7 @@ public class CollapsableMenu : MonoBehaviour
 
     public void Select()
     {
-        list.Select(gameObject);
+        list.Select(this.gameObject);
         isSelected = true;
         transform.GetChild(0).GetComponent<Image>().color = selectedColour;
     }
@@ -99,22 +81,13 @@ public class CollapsableMenu : MonoBehaviour
         list.AlignList();
     }
 
-    public void GetProperties()
+    public virtual void GetProperties()
     {
-        properties.transform.GetChild(0).transform.GetChild(0).GetComponent<InputField>().text = questId;
-        transform.GetChild(0).GetChild(0).GetComponent<Text>().text = questId;
-
-        properties.transform.GetChild(1).transform.GetChild(0).GetComponent<InputField>().text = QuestManager.Instance.GetQuest(questId).GetName();
+        
     }
 
-    public void SetProperties()
+    public virtual void SetProperties()
     {
-        string newID = properties.transform.GetChild(0).transform.GetChild(0).GetComponent<InputField>().text;
-
-        QuestManager.Instance.GetQuest(questId).SetID(newID);
-        questId = newID;
-        transform.GetChild(0).GetChild(0).GetComponent<Text>().text = questId;
-
-        QuestManager.Instance.GetQuest(questId).SetName(properties.transform.GetChild(1).transform.GetChild(0).GetComponent<InputField>().text);
+        
     }
 }

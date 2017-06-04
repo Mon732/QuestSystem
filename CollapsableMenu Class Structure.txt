@@ -1,0 +1,27 @@
+CollapsableMenu.GetQuestID()
+CollapsableMenu.SetQuestID(string)
+
+virtual CollapsableMenu.Start()
+virtual CollapsableMenu.ShowProperties()
+virtual CollapsableMenu.HideProperties()
+virtual CollapsableMenu.GetProperties()
+virtual CollapsableMenu.SetProperties()
+
+CollapsableMenu.Deselect()
+CollapsableMenu.HideProperties()
+CollapsableMenu.Select()
+CollapsableMenu.ShowProperties()
+CollapsableMenu.Start()
+CollapsableMenu.ToggleProperties()
+CollapsableMenu.ToggleSelect()
+CollapsableMenu.Update()
+
+
+CollapsableMenu.questId
+
+CollapsableMenu.isOpen
+CollapsableMenu.isSelected
+CollapsableMenu.list
+CollapsableMenu.normalColour
+CollapsableMenu.properties
+CollapsableMenu.selectedColour

@@ -1,0 +1,1443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfQuest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Quest>
+    <id>test0</id>
+    <name>A Test of Quests: Part 1</name>
+    <currentStage>0</currentStage>
+    <stages>
+      <Stage>
+        <index>1</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>2</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>3</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>4</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>50</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do another thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+    </stages>
+  </Quest>
+  <Quest>
+    <id>test1</id>
+    <name>A Test of Quests: Part 2</name>
+    <currentStage>0</currentStage>
+    <stages>
+      <Stage>
+        <index>0</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>1</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>2</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>3</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>4</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+    </stages>
+  </Quest>
+  <Quest>
+    <id>test2</id>
+    <name>A Test of Quests: Part 3</name>
+    <currentStage>0</currentStage>
+    <stages>
+      <Stage>
+        <index>0</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>1</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>2</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>3</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>4</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+    </stages>
+  </Quest>
+  <Quest>
+    <id>test3</id>
+    <name>A Test of Quests: Part 4</name>
+    <currentStage>0</currentStage>
+    <stages>
+      <Stage>
+        <index>0</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>1</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>2</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>3</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>4</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+    </stages>
+  </Quest>
+  <Quest>
+    <id>test4</id>
+    <name>A Test of Quests: Part 5</name>
+    <currentStage>0</currentStage>
+    <stages>
+      <Stage>
+        <index>0</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>1</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>2</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>3</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>4</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+    </stages>
+  </Quest>
+  <Quest>
+    <id>test5</id>
+    <name>A Test of Quests: Part 6</name>
+    <currentStage>0</currentStage>
+    <stages>
+      <Stage>
+        <index>0</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>1</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>2</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>3</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>4</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+    </stages>
+  </Quest>
+  <Quest>
+    <id>test6</id>
+    <name>A Test of Quests: Part 7</name>
+    <currentStage>0</currentStage>
+    <stages>
+      <Stage>
+        <index>0</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>1</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>2</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>3</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>4</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+    </stages>
+  </Quest>
+  <Quest>
+    <id>test7</id>
+    <name>A Test of Quests: Part 8</name>
+    <currentStage>0</currentStage>
+    <stages>
+      <Stage>
+        <index>0</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>1</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>2</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>3</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>4</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+    </stages>
+  </Quest>
+  <Quest>
+    <id>test8</id>
+    <name>A Test of Quests: Part 9</name>
+    <currentStage>0</currentStage>
+    <stages>
+      <Stage>
+        <index>0</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>1</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>2</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>3</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>4</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+    </stages>
+  </Quest>
+  <Quest>
+    <id>test9</id>
+    <name>A Test of Quests: Part 10</name>
+    <currentStage>0</currentStage>
+    <stages>
+      <Stage>
+        <index>0</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>1</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>2</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>3</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>4</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+    </stages>
+  </Quest>
+  <Quest>
+    <id>test10</id>
+    <name>A Test of Quests: Part 11</name>
+    <currentStage>0</currentStage>
+    <stages>
+      <Stage>
+        <index>0</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>1</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>2</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>3</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>4</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+    </stages>
+  </Quest>
+  <Quest>
+    <id>test11</id>
+    <name>A Test of Quests: Part 12</name>
+    <currentStage>0</currentStage>
+    <stages>
+      <Stage>
+        <index>0</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>1</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>2</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>3</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>4</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+    </stages>
+  </Quest>
+  <Quest>
+    <id>test12</id>
+    <name>A Test of Quests: Part 13</name>
+    <currentStage>0</currentStage>
+    <stages>
+      <Stage>
+        <index>0</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>1</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>2</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>3</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>4</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+    </stages>
+  </Quest>
+  <Quest>
+    <id>test13</id>
+    <name>A Test of Quests: Part 14</name>
+    <currentStage>0</currentStage>
+    <stages>
+      <Stage>
+        <index>0</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>1</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>2</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>3</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>4</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+    </stages>
+  </Quest>
+  <Quest>
+    <id>test14</id>
+    <name>A Test of Quests: Part 15</name>
+    <currentStage>0</currentStage>
+    <stages>
+      <Stage>
+        <index>0</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>1</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>2</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>3</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>4</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+    </stages>
+  </Quest>
+  <Quest>
+    <id>test15</id>
+    <name>A Test of Quests: Part 16</name>
+    <currentStage>0</currentStage>
+    <stages>
+      <Stage>
+        <index>0</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>1</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>2</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>3</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>4</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+    </stages>
+  </Quest>
+  <Quest>
+    <id>test16</id>
+    <name>A Test of Quests: Part 17</name>
+    <currentStage>0</currentStage>
+    <stages>
+      <Stage>
+        <index>0</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>1</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>2</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>3</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>4</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+    </stages>
+  </Quest>
+  <Quest>
+    <id>test17</id>
+    <name>A Test of Quests: Part 18</name>
+    <currentStage>0</currentStage>
+    <stages>
+      <Stage>
+        <index>0</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>1</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>2</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>3</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>4</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+    </stages>
+  </Quest>
+  <Quest>
+    <id>test18</id>
+    <name>A Test of Quests: Part 19</name>
+    <currentStage>0</currentStage>
+    <stages>
+      <Stage>
+        <index>0</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>1</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>2</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>3</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>4</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+    </stages>
+  </Quest>
+  <Quest>
+    <id>test19</id>
+    <name>A Test of Quests: Part 20</name>
+    <currentStage>0</currentStage>
+    <stages>
+      <Stage>
+        <index>0</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>1</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>2</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>3</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+      <Stage>
+        <index>4</index>
+        <objectives>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+          <Objective>
+            <description>Do a thing</description>
+            <completed>false</completed>
+          </Objective>
+        </objectives>
+      </Stage>
+    </stages>
+  </Quest>
+</ArrayOfQuest>
